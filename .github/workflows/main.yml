@@ -13,4 +13,4 @@ jobs:
       with:
         server: ftp.goshehart.se
         username: manager@goshehart.se
-        password: ${{ secrets.ftp_password }}
+        password: ${{ secrets.ZIGISECRET }}
