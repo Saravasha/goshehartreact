@@ -13,4 +13,4 @@ jobs:
       with:
         server: ftp.goshehart.se
         username: fmohr
-        password: ${{ secrets.ftp_password }}
+        password: ${{ GOSHEHARTSECRET }}
