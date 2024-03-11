@@ -16,7 +16,7 @@ export default function App() {
         <Routes>
         {/* <Route path="/" element={<PeopleList/>}/> */}
         <Route path="/" element={<PeopleList/>}/>
-        {/* <Route path="/" element={<SortPeopleList/>}/> wwwwwwwwwwwwwww*/}
+        {/* <Route path="/" element={<SortPeopleList/>}/> wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww*/}
         <Route path="/create" element={<AddPerson/>}/>
         </Routes>
 
