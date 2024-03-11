@@ -12,6 +12,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: ftp.goshehart.se
-        username: fmohr
-        password: ${{ GOSHEHARTSECRET }}
-        
+        username: manager@goshehart.se
+        password: ${{ secrets.ftp_password }}
